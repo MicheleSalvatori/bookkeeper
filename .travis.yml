@@ -1,10 +1,5 @@
 language: java
 
-addons:
-  sonarcloud:
-    organization: "michelesalvatori"
-    token: "62063c17bc6d8076dd6cfba71251970e0ca142ae"
-
 script:
    - mvn clean install -PnoTest 
    #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper 
