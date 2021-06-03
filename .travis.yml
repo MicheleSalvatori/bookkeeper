@@ -8,4 +8,4 @@ addons:
 script:
    #- mvn clean install -PnoTest 
    #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent org.jacoco:jacoco-maven-plugin:report install sonar:sonar -Pcoverage -PnoTest 
-   - mvn clean verify sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper
+   - mvn clean verify sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper -PnoTest
