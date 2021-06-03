@@ -1169,24 +1169,5 @@
 			</properties>
 		</profile>
 		
-		<profile>
-			<id>sonar</id>
-			<activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-			<properties>
-				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-				<sonar.organization>michelesalvatori</sonar.organization>
-				<sonar.projectKey>MicheleSalvatori_bookkeeper</sonar.projectKey>
-				<sonar.projectName>bookkeeper</sonar.projectName>
-				<sonar.login>62063c17bc6d8076dd6cfba71251970e0ca142ae</sonar.login>
-				<sonar.language>java</sonar.language>
-				<sonar.java.file.suffixes>.java</sonar.java.file.suffixes>
-				<sonar.tests>${project.build.testSourceDirectory}</sonar.tests>
-				<sonar.verbose>true</sonar.verbose>
-				<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-			</properties>
-		</profile>
-		
 		</profiles>
 </project>
