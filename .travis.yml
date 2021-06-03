@@ -2,4 +2,3 @@ language: java
 
 script:
    - mvn clean install -PnoTest 
-   #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper 
