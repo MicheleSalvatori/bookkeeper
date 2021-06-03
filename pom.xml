@@ -1187,6 +1187,7 @@
 				<sonar.java.file.suffixes>.java</sonar.java.file.suffixes>
 				<sonar.tests>${project.build.testSourceDirectory}</sonar.tests>
 				<sonar.verbose>true</sonar.verbose>
+				<sonar.tests></sonar.tests>
 				<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
 			</properties>
 		</profile>
