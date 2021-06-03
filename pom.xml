@@ -808,6 +808,16 @@
 		<pluginManagement>
 			<plugins>
 				<plugin>
+		          <groupId>org.sonarsource.scanner.maven</groupId>
+		          <artifactId>sonar-maven-plugin</artifactId>
+		          <version>3.6.0.1398</version>
+	       		</plugin>
+	        	<plugin>
+		          <groupId>org.jacoco</groupId>
+		          <artifactId>jacoco-maven-plugin</artifactId>
+		          <version>0.8.4</version>
+	        	</plugin>
+				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-checkstyle-plugin</artifactId>
 					<version>${maven-checkstyle-plugin.version}</version>
@@ -1144,7 +1154,7 @@
 				<maven.test.skip>true</maven.test.skip>
 			</properties>
 		</profile>
-		
+		<!-- 
 		<profile>
 			<id>coverage</id>
 			<build>
@@ -1176,19 +1186,6 @@
 				</plugin>
 			</plugins>
 			</build>
-			<properties>
-				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-				<sonar.organization>michelesalvatori</sonar.organization>
-				<sonar.projectName>bookkeeper</sonar.projectName>
-				<sonar.login>62063c17bc6d8076dd6cfba71251970e0ca142ae</sonar.login>
-				<sonar.language>java</sonar.language>
-				<sonar.java.source>11</sonar.java.source>
-				<sonar.java.file.suffixes>.java</sonar.java.file.suffixes>
-				<sonar.tests>${project.build.testSourceDirectory}</sonar.tests>
-				<sonar.verbose>true</sonar.verbose>
-				<sonar.tests></sonar.tests>
-				<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
-			</properties>
-		</profile>
+		</profile>-->
 		</profiles>
 </project>
