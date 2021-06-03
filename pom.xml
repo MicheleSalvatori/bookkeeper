@@ -837,6 +837,48 @@
 						</execution>
 					</executions>
 				</plugin>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.6.0.1398</version>
+				</plugin>
+				
+				<plugin>
+				    <groupId>org.jacoco</groupId>
+				    <artifactId>jacoco-maven-plugin</artifactId>
+				    <version>0.8.7</version>
+				    <executions>
+				        <execution>
+				            <goals>
+				                <goal>prepare-agent</goal>
+				            </goals>
+				        </execution>
+				        <execution>
+				            <id>report</id>
+				            <phase>prepare-package</phase>
+				            <goals>
+				                <goal>report</goal>
+				            </goals>
+				        </execution>
+				        <execution>
+				            <id>jacoco-check</id>
+				            <goals>
+				                <goal>check</goal>
+				            </goals>
+				            <configuration>
+				                <rules>
+				                    <rule>
+				                        <limits>
+				                            <limit>
+				                                <minimum>0.9</minimum>
+				                            </limit>
+				                        </limits>
+				                    </rule>
+				                </rules>
+				            </configuration>
+				        </execution>
+				    </executions>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 		<plugins>
@@ -1144,5 +1186,25 @@
 				<maven.test.skip>true</maven.test.skip>
 			</properties>
 		</profile>
+		
+		<profile>
+			<id>sonar</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+				<sonar.organization>michelesalvatori</sonar.organization>
+				<sonar.projectKey>MicheleSalvatori_bookkeeper</sonar.projectKey>
+				<sonar.projectName>bookkeeper</sonar.projectName>
+				<sonar.login>62063c17bc6d8076dd6cfba71251970e0ca142ae</sonar.login>
+				<sonar.language>java</sonar.language>
+				<sonar.java.file.suffixes>.java</sonar.java.file.suffixes>
+				<sonar.tests>${project.build.testSourceDirectory}</sonar.tests>
+				<sonar.verbose>true</sonar.verbose>
+				<sonar.coverage.jacoco.xmlReportPaths>${project.build.directory}/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+			</properties>
+		</profile>
+		
 		</profiles>
 </project>
