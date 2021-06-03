@@ -866,7 +866,7 @@
 				                <goal>check</goal>
 				            </goals>
 				            <configuration>
-				                <rules>
+				             <!-- <rules>
 				                    <rule>
 				                        <limits>
 				                            <limit>
@@ -874,7 +874,7 @@
 				                            </limit>
 				                        </limits>
 				                    </rule>
-				                </rules>
+				                </rules> -->
 				            </configuration>
 				        </execution>
 				    </executions>
