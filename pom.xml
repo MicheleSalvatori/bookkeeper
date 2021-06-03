@@ -1179,7 +1179,6 @@
 			<properties>
 				<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 				<sonar.organization>michelesalvatori</sonar.organization>
-				<sonar.projectKey>MicheleSalvatori_bookkeeper</sonar.projectKey>
 				<sonar.projectName>bookkeeper</sonar.projectName>
 				<sonar.login>62063c17bc6d8076dd6cfba71251970e0ca142ae</sonar.login>
 				<sonar.language>java</sonar.language>
