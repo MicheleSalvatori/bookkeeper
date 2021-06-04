@@ -1142,13 +1142,6 @@
 				</plugins>
 			</build>
 		</profile>
-		
-		<profile>
-			<id>noTest</id>
-			<properties>
-				<maven.test.skip>true</maven.test.skip>
-			</properties>
-		</profile>
 		<!-- 
 		<profile>
 			<id>coverage</id>
