@@ -105,9 +105,6 @@
 		<javac.target>1.8</javac.target>
 		<redirectTestOutputToFile>true</redirectTestOutputToFile>
 		<testRetryCount>2</testRetryCount>
-  		<sonar.projectKey>MicheleSalvatori_bookkeeper</sonar.projectKey>
-  		<sonar.organization>michelesalvatori</sonar.organization>
-	  	<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
 		<!-- dependencies -->
 		<arquillian-cube.version>1.18.2</arquillian-cube.version>
