@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import java.io.IOException;
 
 import org.apache.bookkeeper.bookie.storage.ldb.ReadCache;
+import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,8 +20,8 @@ public class AttemptTest {
 	private static ReadCache cache;
 	private static ByteBuf entry;
 	
-	@BeforeClass
-	public static void configure() {
+	@Before
+	public void configure() {
 		ByteBufAllocator allocator = ByteBufAllocator.DEFAULT;
 		long maxCacheSize = 10 * 1024;
 		cache = new ReadCache(allocator, maxCacheSize);
