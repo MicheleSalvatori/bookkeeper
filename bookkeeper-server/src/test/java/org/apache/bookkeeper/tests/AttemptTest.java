@@ -29,7 +29,6 @@ public class AttemptTest {
 
 	@Test
 	public void putTest() throws IOException {
-
 		cache.put(1, 0, entry);
 		assertEquals(cache.count(), 1);
 	}
