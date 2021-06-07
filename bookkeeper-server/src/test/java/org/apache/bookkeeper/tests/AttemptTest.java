@@ -4,24 +4,40 @@ import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
 
-import org.apache.bookkeeper.bookie.EntryKey;
-import org.apache.bookkeeper.bookie.SortedLedgerStorage;
+import org.apache.bookkeeper.bookie.storage.ldb.ReadCache;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
+import io.netty.buffer.ByteBuf;
+import io.netty.buffer.ByteBufAllocator;
+import io.netty.buffer.Unpooled;
+
 public class AttemptTest {
+	private static ReadCache cache;
+	private static ByteBuf entry;
+	
+	@BeforeClass
+	public static void configure() {
+		ByteBufAllocator allocator = ByteBufAllocator.DEFAULT;
+		long maxCacheSize = 10 * 1024;
+		cache = new ReadCache(allocator, maxCacheSize);
+		entry = Unpooled.wrappedBuffer(new byte[1024]);
+	}
 
-	 @Test
-	    public void dummyTest() throws IOException {
-	        SortedLedgerStorage srl = new SortedLedgerStorage();
-	        System.out.println(srl);
-	        Long id = 4000L;
-//	        ByteBuf ledger = LedgerDescriptor.createLedgerFenceEntry(id);
-	        EntryKey entry = new EntryKey();
-	        System.out.println(entry);
-	        
-	        int parameter = 5;
-	        assertEquals(5, parameter);
-	    }
+	@Test
+	public void putTest() throws IOException {
+
+		cache.put(1, 0, entry);
+		assertEquals(cache.count(), 1);
+	}
+	
+	@Test
+	public void getTest() {
+		cache.put(1, 0, entry);
+		ByteBuf expectedValue = entry;
+		ByteBuf actualValue = cache.get(1, 0);
+		System.out.println(actualValue);
+		assertEquals(actualValue, expectedValue);
+	}
+
 }
-
-
