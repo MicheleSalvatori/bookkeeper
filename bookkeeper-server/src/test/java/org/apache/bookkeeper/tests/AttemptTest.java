@@ -53,15 +53,5 @@ public class AttemptTest {
 		cache.put(ledgerId, entryId, entry);
 		assertEquals(cache.count(), 1);
 	}
-
-	/*
-	@Test
-	public void getTest() {
-		cache.put(1, 0, entry);
-		ByteBuf expectedValue = entry;
-		ByteBuf actualValue = cache.get(1, 0);
-		assertEquals(actualValue, expectedValue);
-	}
-	*/
-
+	
 }
