@@ -3,6 +3,8 @@ package org.apache.bookkeeper.tests;
 import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collection;
 
 import org.apache.bookkeeper.bookie.storage.ldb.ReadCache;
 import org.junit.Before;
@@ -10,30 +12,49 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
+import org.junit.runners.Parameterized.Parameters;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 import io.netty.buffer.Unpooled;
 
-//@RunWith(value = Parameterized.class)
+@RunWith(value = Parameterized.class)
 public class AttemptTest {
-	private static ReadCache cache;
-	private static ByteBuf entry;
+	private ReadCache cache;
+	private static ByteBufAllocator allocator;
+	
+	private long ledgerId;
+	private long entryId;
+	private ByteBuf entry;
+	private int expected;
+	
+	public AttemptTest(long ledgerId, long entryId, ByteBuf entry, int expected) {
+		this.ledgerId = ledgerId;
+		this.entryId = entryId;
+		this.entry = entry;
+		this.expected = expected;
+	}
 	
 	@Before
 	public void configure() {
-		ByteBufAllocator allocator = ByteBufAllocator.DEFAULT;
+		allocator = ByteBufAllocator.DEFAULT;
 		long maxCacheSize = 10 * 1024;
 		cache = new ReadCache(allocator, maxCacheSize);
-		entry = Unpooled.wrappedBuffer(new byte[1024]);
+	}
+
+	@Parameters
+	public static Collection<Object[]> data() {
+		ByteBuf entryTest = Unpooled.wrappedBuffer(new byte[1024]);
+		return Arrays.asList(new Object[][] { { 1, 1, entryTest, 1}});
 	}
 
 	@Test
 	public void putTest() throws IOException {
-		cache.put(1, 0, entry);
+		cache.put(ledgerId, entryId, entry);
 		assertEquals(cache.count(), 1);
 	}
-	
+
+	/*
 	@Test
 	public void getTest() {
 		cache.put(1, 0, entry);
@@ -41,5 +62,6 @@ public class AttemptTest {
 		ByteBuf actualValue = cache.get(1, 0);
 		assertEquals(actualValue, expectedValue);
 	}
+	*/
 
 }

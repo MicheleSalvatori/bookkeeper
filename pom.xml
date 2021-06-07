@@ -193,6 +193,9 @@
 		<spotbugs-maven-plugin.version>3.1.8</spotbugs-maven-plugin.version>
 		<forkCount.variable>1</forkCount.variable>
 		<servlet-api.version>4.0.0</servlet-api.version>
+		
+		<aggregate.report.dir>my_tests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
+		<redirectTestOutputToFile>true</redirectTestOutputToFile>
 	</properties>
 
 	<!-- dependency definitions -->
