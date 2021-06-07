@@ -7,11 +7,14 @@ import java.io.IOException;
 import org.apache.bookkeeper.bookie.storage.ldb.ReadCache;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;
 import io.netty.buffer.Unpooled;
 
+//@RunWith(value = Parameterized.class)
 public class AttemptTest {
 	private static ReadCache cache;
 	private static ByteBuf entry;
@@ -36,7 +39,6 @@ public class AttemptTest {
 		cache.put(1, 0, entry);
 		ByteBuf expectedValue = entry;
 		ByteBuf actualValue = cache.get(1, 0);
-		System.out.println(actualValue);
 		assertEquals(actualValue, expectedValue);
 	}
 
