@@ -59,7 +59,7 @@ public class DefaultEnsemblePlacementPolicy implements EnsemblePlacementPolicy {
     private WeightedRandomSelection<BookieId> weightedSelection;
     private final ReentrantReadWriteLock rwLock;
 
-    DefaultEnsemblePlacementPolicy() {
+    public DefaultEnsemblePlacementPolicy() {
         bookieInfoMap = new HashMap<BookieId, WeightedObject>();
         rwLock = new ReentrantReadWriteLock();
     }
@@ -193,7 +193,7 @@ public class DefaultEnsemblePlacementPolicy implements EnsemblePlacementPolicy {
                                        HashedWheelTimer hashedWheelTimer,
                                        FeatureProvider featureProvider,
                                        StatsLogger statsLogger,
-                                       BookieAddressResolver bookieAddressResolver) {
+			BookieAddressResolver bookieAddressResolver) {
         this.isWeighted = conf.getDiskWeightBasedPlacementEnabled();
         if (this.isWeighted) {
             this.maxWeightMultiple = conf.getBookieMaxWeightMultipleForWeightBasedPlacement();

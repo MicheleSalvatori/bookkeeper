@@ -18,6 +18,10 @@
 
 package org.apache.bookkeeper.versioning;
 
+import java.util.Set;
+
+import org.apache.bookkeeper.net.BookieId;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -31,4 +35,9 @@ import lombok.Data;
 public class Versioned<T> {
     T value;
     Version version;
+
+    // Generated stub. This metod is not 
+    public Set<BookieId> getValue() {
+		return null;
+	}
 }
