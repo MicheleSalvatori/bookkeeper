@@ -36,8 +36,8 @@ public class Versioned<T> {
     T value;
     Version version;
 
-    // Generated stub. This metod is not 
-    public Set<BookieId> getValue() {
-		return null;
-	}
+//    // Generated stub. This metod is not 
+//    public Set<BookieId> getValue() {
+//		return null;
+//	}
 }
