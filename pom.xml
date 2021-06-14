@@ -47,8 +47,7 @@
 	<modules>
 		<module>bookkeeper-server</module>
 		<module>bookkeeper-common</module>
-	<!--  
-		<module>buildtools</module>
+	<!--<module>buildtools</module>
 		<module>circe-checksum</module>
 		<module>bookkeeper-common-allocator</module>
 		<module>stats</module>
@@ -64,8 +63,8 @@
 		<module>bookkeeper-dist</module>
 		<module>shaded</module>
 		<module>microbenchmarks</module>
-		<module>tests</module> -->
 		<module>my_tests</module> 
+	 	<module>tests</module> -->
 	</modules>
 	<mailingLists>
 		<mailingList>
@@ -105,7 +104,9 @@
 		<javac.target>1.8</javac.target>
 		<redirectTestOutputToFile>true</redirectTestOutputToFile>
 		<testRetryCount>2</testRetryCount>
-
+ 		<maven.javadoc.skip>true</maven.javadoc.skip>
+ 		
+ 		
 		<!-- dependencies -->
 		<arquillian-cube.version>1.18.2</arquillian-cube.version>
 		<arquillian-junit.version>1.6.0.Final</arquillian-junit.version>
