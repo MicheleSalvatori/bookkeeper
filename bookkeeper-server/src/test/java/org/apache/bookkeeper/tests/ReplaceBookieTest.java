@@ -76,7 +76,7 @@ public class ReplaceBookieTest {
 	@Parameters
 	public static Collection<TestParameters> getParameters() throws BKNotEnoughBookiesException {
 //		currentEnsemble = policy.newEnsemble(ensembleSize, quorumSize, ackQuorumSize, parameters.getCustomMetadata(), excludeBookies).getResult();
-		
+		System.out.println("PEPPE");
 		List<TestParameters> parameters = new ArrayList<>();
 		parameters.add(new TestParameters(5, 5, 5, null, excludeBookies, 2, null));
 		
