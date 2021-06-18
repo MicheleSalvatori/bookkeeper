@@ -26,6 +26,7 @@
   <name>Apache BookKeeper :: Server</name>
   <properties>
     <sonar.coverage.jacoco.xmlReportPaths>${basedir}/../${aggregate.report.dir}</sonar.coverage.jacoco.xmlReportPaths>
+    <aggregate.report.dir>mytests/target/site/jacoco-aggregate/jacoco.xml</aggregate.report.dir>
     <maven.javadoc.skip>true</maven.javadoc.skip>
   </properties>
   <dependencies>

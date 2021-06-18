@@ -47,7 +47,7 @@ public class MacDigestManager extends DigestManager {
 
     final byte[] passwd;
 
-    static final byte[] EMPTY_LEDGER_KEY;
+    public static final byte[] EMPTY_LEDGER_KEY;
     static {
         try {
             EMPTY_LEDGER_KEY = MacDigestManager.genDigest("ledger", new byte[0]);

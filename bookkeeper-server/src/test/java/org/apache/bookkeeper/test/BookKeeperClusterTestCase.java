@@ -92,8 +92,8 @@ public abstract class BookKeeperClusterTestCase {
 
     // BookKeeper related variables
     protected final List<File> tmpDirs = new LinkedList<>();
-    private final List<ServerTester> servers = new LinkedList<>();
-
+    public final List<ServerTester> servers = new LinkedList<>();
+    
     protected int numBookies;
     protected BookKeeperTestClient bkc;
     protected boolean useUUIDasBookieId = true;

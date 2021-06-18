@@ -774,7 +774,11 @@ public class EntryLogger {
         long entrySizePos = pos - 4; // we want to get the entrySize as well as the ledgerId and entryId
 
         try {
-            if (readFromLogChannel(entryLogId, fc, sizeBuff, entrySizePos) != sizeBuff.capacity()) {
+        	int readed = readFromLogChannel(entryLogId, fc, sizeBuff, entrySizePos) ;
+        	int cap = sizeBuff.capacity();
+        	System.out.println("READED: "+readed);
+        	System.out.println("CAP: "+cap);
+            if (readed != cap) {
                 throw new EntryLookupException.MissingEntryException(ledgerId, entryId, entryLogId, entrySizePos);
             }
         } catch (BufferedChannelBase.BufferedChannelClosedException | AsynchronousCloseException e) {

@@ -18,7 +18,6 @@ import org.apache.bookkeeper.client.BKException.BKNotEnoughBookiesException;
 import org.apache.bookkeeper.client.DefaultEnsemblePlacementPolicy;
 import org.apache.bookkeeper.conf.ClientConfiguration;
 import org.apache.bookkeeper.net.BookieId;
-import org.apache.bookkeeper.net.BookieIdTest;
 import org.apache.bookkeeper.net.BookieSocketAddress;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -39,14 +38,13 @@ public class ReplaceBookieTest {
 	private static DefaultEnsemblePlacementPolicy policy;
 	private static int nextBookieSocketAddressID;
 	private static Set<BookieId> writableBookies;
-	private static Set<BookieId> deadBookies;
 	private static Set<BookieId> excludeBookies;
 	private static List<BookieId> currentEnsemble;
 	
 	private static TestParameters parameters;
-	private static int ensembleSize;;
-	private static int quorumSize;;
-	private static int ackQuorumSize;;
+	private static int ensembleSize;
+	private static int quorumSize;
+	private static int ackQuorumSize;
 
 	public ReplaceBookieTest(TestParameters parameters) {
 		this.parameters = parameters;
@@ -62,21 +60,21 @@ public class ReplaceBookieTest {
 		policy = new DefaultEnsemblePlacementPolicy();
 		
 		ClientConfiguration conf = Mockito.mock(ClientConfiguration.class);
-		Mockito.when(conf.getDiskWeightBasedPlacementEnabled()).thenReturn(true);
+		Mockito.when(conf.getDiskWeightBasedPlacementEnabled()).thenReturn(false);
 		Mockito.when(conf.getBookieMaxWeightMultipleForWeightBasedPlacement()).thenReturn(5);
 		
 		policy.initialize(conf, Optional.empty(), null, null, null, null);
 		
 		writableBookies = getBookieIds(DEFAULT_BOOKIES_KNOWN);		
 		System.out.println(writableBookies);
-		excludeBookies  = getBookieSocketAddressesFrom(writableBookies, DEFAULT_BOOKIES_EXCLUDED);  
-		deadBookies= policy.onClusterChanged(writableBookies, new HashSet<>());			
+//		excludeBookies  = getBookieSocketAddressesFrom(writableBookies, DEFAULT_BOOKIES_EXCLUDED);  
+		excludeBookies  = new HashSet<>(); 
+		policy.onClusterChanged(writableBookies, new HashSet<>());			
 	}
 	
 	@Parameters
 	public static Collection<TestParameters> getParameters() throws BKNotEnoughBookiesException {
-//		currentEnsemble = policy.newEnsemble(ensembleSize, quorumSize, ackQuorumSize, parameters.getCustomMetadata(), excludeBookies).getResult();
-		System.out.println("PEPPE");
+		System.out.println("Parameters");
 		List<TestParameters> parameters = new ArrayList<>();
 		parameters.add(new TestParameters(5, 5, 5, null, excludeBookies, 2, null));
 		
@@ -89,12 +87,14 @@ public class ReplaceBookieTest {
 	@Test
 	public void test() throws BKNotEnoughBookiesException {
 		
+		currentEnsemble = policy.newEnsemble(ensembleSize, quorumSize, ackQuorumSize, parameters.getCustomMetadata(), excludeBookies).getResult();
+		
 		if (parameters.getExpectedException() != null) {
 			exceptionRule.expect(parameters.getExpectedException());
 		}
 		
-		BookieId bookieToReplace = currentEnsemble.get(0);		// mettere random
-		BookieId output = policy.replaceBookie(parameters.getEnsembleSize(), parameters.getQuorumSize(), parameters.getAckQuorumSize(), parameters.getCustomMetadata(),  currentEnsemble, bookieToReplace, excludeBookies).getResult();
+		BookieId bookieToReplace = currentEnsemble.get(4);		// mettere random
+		BookieId output = policy.replaceBookie(ensembleSize, quorumSize, ackQuorumSize, parameters.getCustomMetadata(),  currentEnsemble, bookieToReplace, excludeBookies).getResult();
 		
 		assertNotEquals(bookieToReplace, output);
 		
