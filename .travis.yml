@@ -9,8 +9,4 @@ addons:
     token: "62063c17bc6d8076dd6cfba71251970e0ca142ae"
      
 script:
-   #- mvn clean install -PnoTest 
-   #- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent org.jacoco:jacoco-maven-plugin:report install sonar:sonar -Pcoverage -PnoTest 
-   #- mvn clean verify sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper -PnoTest
-   #- mvn "-Dtest=org/apache/bookkeeper/tests/*Test" -DfailIfNoTests=false clean verify sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper
-   - mvn "-Dtest=org/apache/bookkeeper/tests/DefaultEnsemblePlacementPolicyWithEntityTest" -DfailIfNoTests=false clean verify -e org.jacoco:jacoco-maven-plugin:prepare-agent sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper
+  - mvn clean verify -e org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=MicheleSalvatori_bookkeeper
