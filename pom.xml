@@ -47,7 +47,7 @@
 	<modules>
 		<module>bookkeeper-server</module>
 		<module>bookkeeper-common</module>
-		<!-- 
+		<!--  
 		<module>buildtools</module>
 		<module>circe-checksum</module>
 		<module>bookkeeper-common-allocator</module>

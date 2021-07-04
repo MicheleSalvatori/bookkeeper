@@ -296,4 +296,49 @@
       </plugin>
     </plugins>
   </build>
+  
+  <profiles>
+  <profile>
+            <id>pit-test</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.pitest</groupId>
+                        <artifactId>pitest-maven</artifactId>
+                        <version>1.5.2</version>
+                        <configuration>
+                       	 	<verbose>true</verbose>
+                            <targetClasses>
+                                <param>org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex</param>
+                                <param>org.apache.bookkeeper.bookie.FileInfo</param>
+                            </targetClasses>
+                            <targetTests>
+                                <param>org.apache.bookkeeper.bookie.FileInfoAbsoluteReadTest</param>
+                                <param>org.apache.bookkeeper.bookie.FileInfoWriteTest</param>
+                                <param>org.apache.bookkeeper.bookie.storage.ldb.DeleteLedgerTest</param>
+                                <param>org.apache.bookkeeper.bookie.storage.ldb.GetLedgerMetadataTest</param>
+                                <param>org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest</param>
+                                <param>org.apache.bookkeeper.bookie.storage.ldb.SetLedgerMetadataTest</param>
+                                <param>org.apache.bookkeeper.bookie.storage.ldb.SetMasterKeyTest</param>
+                            </targetTests>
+                            <avoidCallsTo>
+                                <avoidCallsTo>java.util.logging</avoidCallsTo>
+                                <avoidCallsTo>org.apache.log4j</avoidCallsTo>
+                                <avoidCallsTo>org.slf4j</avoidCallsTo>
+                                <avoidCallsTo>org.apache.commons.logging</avoidCallsTo>
+                            </avoidCallsTo> 
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>mutuation-coverage</id>
+                                <goals>
+                                    <goal>mutationCoverage</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+  </profiles>
 </project>

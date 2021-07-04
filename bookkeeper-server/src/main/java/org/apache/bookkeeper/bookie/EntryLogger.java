@@ -776,8 +776,6 @@ public class EntryLogger {
         try {
         	int readed = readFromLogChannel(entryLogId, fc, sizeBuff, entrySizePos) ;
         	int cap = sizeBuff.capacity();
-        	System.out.println("READED: "+readed);
-        	System.out.println("CAP: "+cap);
             if (readed != cap) {
                 throw new EntryLookupException.MissingEntryException(ledgerId, entryId, entryLogId, entrySizePos);
             }
