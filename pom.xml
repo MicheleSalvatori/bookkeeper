@@ -47,7 +47,7 @@
 	<modules>
 		<module>bookkeeper-server</module>
 		<module>bookkeeper-common</module>
-		<!--  
+		<
 		<module>buildtools</module>
 		<module>circe-checksum</module>
 		<module>bookkeeper-common-allocator</module>
@@ -64,7 +64,7 @@
 		<module>bookkeeper-dist</module>
 		<module>shaded</module>
 		<module>microbenchmarks</module>
-		 -->
+		 
 		<module>my_tests</module> 
 	</modules>
 	<mailingLists>
