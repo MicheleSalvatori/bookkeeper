@@ -14,7 +14,6 @@ import java.util.Map;
 
 import org.apache.bookkeeper.bookie.Bookie;
 import org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageDataFormats.LedgerData;
-import org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -50,7 +49,7 @@ public class SetLedgerFencedTest {
 	@Before
 	public void configure() throws IOException {
 		instance = new LedgerMetadataIndexConfig(ledgerExist);
-		LedgerData ledgerData = LedgerData.newBuilder().setExists(true).setFenced(alreadyFenced)					// alreadyFenced = true -> il ledger avrà il fencing già abilitato
+		LedgerData ledgerData = LedgerData.newBuilder().setExists(true).setFenced(alreadyFenced)			// alreadyFenced = true -> il ledger avrà il fencing già abilitato
 				.setMasterKey(ByteString.copyFromUtf8("masterKeyTest"+ledgerId)).build();
 		
 		if (ledgerExist) {
@@ -63,7 +62,10 @@ public class SetLedgerFencedTest {
 		
 		ledgerMetadataIndex = instance.setupLedgerMetadaIndex();
 		
-		if (simulateConcurrency) {
+		/*
+		 * Attraverso Mockito viene alterato il funzionamento del metodo get il quale eliminerà i metadati del ledger dall'indice. 
+		 */
+		if (simulateConcurrency) {																	
 			ledgerMetadataIndex = spy(ledgerMetadataIndex);
 			when(ledgerMetadataIndex.get(ledgerId)).then(invocation ->{
 				LedgerData ledgerDataConcurr = (LedgerData) invocation.callRealMethod();
@@ -75,13 +77,20 @@ public class SetLedgerFencedTest {
 
 	@Parameterized.Parameters
 	public static Collection<?> getTestParameters() {
-//		ledgerId, simulateConcurrency, alreadyFenced, ledgerExist
-		return Arrays.asList(new Object[][] {						// mettere dei parametri booleani qui in modo da capire cosa sono dal nome
-
-				{ 0, false, false, false, Bookie.NoLedgerException.class }, 	// test ledger non esiste
-				{-1, false, true, true, null }, 								// test ledger già fenced
-				{0, false, false, true, null }, 								// test ledger non fenced
-				{1, true, false, true, null }, 									// simulate concurrency
+		boolean alreadyFenced = true;
+		boolean simulateConcurrency = true;
+		boolean ledgerExist = true;
+		return Arrays.asList(new Object[][] {						
+				
+			/*
+			 *  Test case riorganizzati dopo risultati jacoco
+			 *	(ledgerId, simulateConcurrency, alreadyFenced, ledgerExist, exception)
+			 */
+				{ 0, !simulateConcurrency, !alreadyFenced, !ledgerExist, Bookie.NoLedgerException.class }, 		// test ledger non esiste
+				{-1, !simulateConcurrency, alreadyFenced, ledgerExist, null }, 									// test ledger già fenced
+				{0, !simulateConcurrency, !alreadyFenced, ledgerExist, null }, 									// test ledger non fenced
+				{1, simulateConcurrency, !alreadyFenced, ledgerExist, null } 									// simulate concurrency
+				
 				});
 	}
 
@@ -98,10 +107,10 @@ public class SetLedgerFencedTest {
 			assertFalse(returnValue);
 		else assertTrue(returnValue);
 		
-		LedgerData updatedData = ledgerMetadataIndex.get(this.ledgerId);		// recuperiamo il ledger che abbiamo modificato
-		assertTrue(updatedData.getFenced());									// ci assicuriamo che il fencing sia abilitato
+		LedgerData updatedData = ledgerMetadataIndex.get(this.ledgerId);			// recuperiamo il ledger che abbiamo modificato
+		assertTrue(updatedData.getFenced());										// ci assicuriamo che il fencing sia abilitato
 		
-		if (returnValue) {														// Check sulla corretta invocazione del metodo put sulla nostra mock
+		if (returnValue) {															// Check sulla corretta invocazione del metodo put sulla nostra mock
 			ByteBuffer buff = ByteBuffer.allocate(Long.BYTES);
 			buff.putLong(ledgerId);
 			LedgerData expectedLedgerData = LedgerData.newBuilder().setExists(true).setFenced(true).setMasterKey(ByteString.copyFromUtf8("masterKeyTest"+ledgerId)).build();

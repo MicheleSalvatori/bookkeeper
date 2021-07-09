@@ -36,7 +36,7 @@ public class FileInfoWriteTest {
 	static final long START_OF_DATA = 1024;
 
 	private static byte[] masterKey = "masterKey".getBytes();
-	private static int V0 = 0; 												// Accepted versions for headers {V0, V1}
+	private static int V0 = 0; 															// Accepted versions for headers {V0, V1}
 	private static int buff_lenght = 3;
 
 
@@ -71,11 +71,9 @@ public class FileInfoWriteTest {
 
 	@After
 	public void tearDown() throws Exception {
-		if(buffer!=null) {
 			fc.close();
 			fileInfo.close(true);
 			lf.delete();
-		}
 	}
 
 	@Parameters
@@ -116,10 +114,10 @@ public class FileInfoWriteTest {
 		System.out.println("result: "+result + " = " + expectedWritedBytes);
 		assertEquals(expectedWritedBytes, result);
 		
-		// Added for caught pit mutuation
+		// Added for pit mutuation
 		FileChannel fc_2 = FileChannel.open(fileInfo.getLf().getAbsoluteFile().toPath(), StandardOpenOption.READ);
-		System.out.println("Size: "+fc_2.size());
 		assertEquals((buff_lenght+1)*1024+position,fc_2.size());
+//		assertEquals(fileInfo.size()+START_OF_DATA,fc_2.size());
 	}
 
 }

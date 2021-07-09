@@ -71,10 +71,12 @@ public class SetMasterKeyTest {
 			
 			{0, "testMasterKey".getBytes(), null,false, null},
 			{1L, null, null, false, NullPointerException.class},
-			{0, "".getBytes(), new byte[0], true, null},											// Copre la branch riga 184
-			{1L, new byte[0], "previousMasterKey".getBytes(), true, null},							// Copre seconda branch riga 190
-			{1L, "testMasterKey".getBytes(), "previousMasterKey".getBytes(), true, IOException.class},	//Copre la branch stored!=master		// BookieIllegalOpException is a java.io.IOException
-			{-1L, "testMasterKey".getBytes(), "testMasterKey".getBytes(), true, null},					// Copre la branch master stored=master
+			
+			// Aggiunti per migliorare coverage
+			{0, "".getBytes(), new byte[0], true, null},												// 184
+			{1L, new byte[0], "previousMasterKey".getBytes(), true, null},								// 190
+			{1L, "testMasterKey".getBytes(), "previousMasterKey".getBytes(), true, IOException.class},	// stored!=master		
+			{-1L, "testMasterKey".getBytes(), "testMasterKey".getBytes(), true, null},					// stored=master
 		});
 	}
 
@@ -84,7 +86,7 @@ public class SetMasterKeyTest {
 			exceptionRule.expect(expectedException);
 		}
 		ledgerMetadataIndex.setMasterKey(ledgerId, masterKey);
-		ledgerMetadataIndex.flush(); // flushes all pending changes
+		ledgerMetadataIndex.flush(); 
 		
 		LedgerData actualData = ledgerMetadataIndex.get(ledgerId);
 
@@ -95,12 +97,10 @@ public class SetMasterKeyTest {
 		System.out.println("actualMasterKey: " + Arrays.toString(actualData.getMasterKey().toByteArray()));
 		
 		String expectedMasterKey = null;
-		if (this.previousMasterKey == null || this.previousMasterKey.length == 0) {					//|| previousStoredMasterKey.equals(newMasterKey)
+		if (this.previousMasterKey == null || this.previousMasterKey.length == 0) {					
             expectedMasterKey = newMasterKey;
-//            expectedMasterKeyBytes = this.insertingMasterKey;
         } else {
             expectedMasterKey = previousStoredMasterKey;
-//            expectedMasterKeyBytes = this.previousMasterKey;
         }
 		
 		assertEquals(expectedMasterKey, Arrays.toString(actualData.getMasterKey().toByteArray()));

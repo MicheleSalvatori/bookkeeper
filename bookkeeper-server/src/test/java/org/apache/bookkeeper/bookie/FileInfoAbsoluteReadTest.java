@@ -8,14 +8,9 @@ import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Random;
 
-import org.apache.zookeeper.test.SaslAuthRequiredFailNoSASLTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
@@ -95,13 +90,13 @@ public class FileInfoAbsoluteReadTest {
 		return Arrays.asList(new Object[][] {
 				// Test suite minimale
 			{ByteBuffer.allocate(5120), 0, false, null, 5120},
-			{ByteBuffer.allocate(5120), 5119, true, null, 5120}, 
+			{ByteBuffer.allocate(5120), 1, true, null, 5120}, 
 			{ByteBuffer.allocate(0), 0, true, null, 0}, 
 			{null, -1, false, NullPointerException.class, 0},
-			{ByteBuffer.allocate(5120), 6145, false, ShortReadException.class, 6144}, 
 			
-				// Added for jacoco
-			{ByteBuffer.allocate(5120), 6145, true, null, 6144} 
+//				// Added for jacoco
+			{ByteBuffer.allocate(5120), 6145, false, ShortReadException.class, 5120}, 
+			{ByteBuffer.allocate(5120), 6145, true, null, 5120} 
 			
 			
 		});

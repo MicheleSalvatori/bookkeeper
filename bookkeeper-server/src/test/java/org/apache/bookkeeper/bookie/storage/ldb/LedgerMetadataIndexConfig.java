@@ -5,39 +5,28 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-import org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageDataFormats.LedgerData;
-import org.apache.bookkeeper.bookie.storage.ldb.KeyValueStorage;
-import org.apache.bookkeeper.bookie.storage.ldb.KeyValueStorageFactory;
-import org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex;
 import org.apache.bookkeeper.conf.ServerConfiguration;
-import org.apache.bookkeeper.stats.CachingStatsLogger;
 import org.apache.bookkeeper.stats.NullStatsLogger;
-import org.apache.bookkeeper.stats.StatsLogger;
 import org.mockito.Mock;
 
 public class LedgerMetadataIndexConfig {
 
 	@SuppressWarnings("unchecked")
 	@Mock
-	private KeyValueStorage.CloseableIterator<Map.Entry<byte[], byte[]>> closeableIterator = mock(
-			KeyValueStorage.CloseableIterator.class); 							// Iterator interface
+	private KeyValueStorage.CloseableIterator<Map.Entry<byte[], byte[]>> closeableIterator = 		// Iterator interface
+			mock(KeyValueStorage.CloseableIterator.class); 							
 
 	@Mock
-	private KeyValueStorageFactory factory = mock(KeyValueStorageFactory.class); // Factory class to create
-																						// instances of the key-value
-																						// storage implementation
-
+	private KeyValueStorageFactory factory = mock(KeyValueStorageFactory.class); 					// Factory class
 	@Mock
-	private KeyValueStorage keyValueStorage = mock(KeyValueStorage.class); // Abstraction of a generic key-value
-																					// local database.
+	private KeyValueStorage keyValueStorage = mock(KeyValueStorage.class); 
 
 	private Iterator<Map.Entry<byte[], byte[]>> iterator;
-	private Map<byte[], byte[]> ledgers; 						// è una lista di tutti i ledgers su cui itera l'iterator
+	private Map<byte[], byte[]> ledgers; 						// lista di ledgers su cui itera l'iterator
 	private boolean metadataExist;
 	
 	public LedgerMetadataIndexConfig() {}
@@ -55,9 +44,12 @@ public class LedgerMetadataIndexConfig {
 			iterator = ledgers.entrySet().iterator();
 			return closeableIterator;
 		});
+		/*
+		 * Nel caso in cui si simula la presenza di metadati già esisteni, 
+		 * l'iterator ritorna il prossimo metadato
+		 */
 
-		if (this.metadataExist) { // ritorna il prossimo dall'iterator se stiamo simulando la presenza già dei
-									// metadati nell'indice
+		if (this.metadataExist) {
 			when(closeableIterator.hasNext()).then(invocationOnMock -> this.iterator.hasNext());
 			when(closeableIterator.next()).then(invocationOnMock -> this.iterator.next());
 		} else {

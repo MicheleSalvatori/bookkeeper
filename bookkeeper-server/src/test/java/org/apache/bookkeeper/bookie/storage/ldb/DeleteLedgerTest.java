@@ -66,6 +66,7 @@ public class DeleteLedgerTest extends LedgerMetadataIndexConfig{
 
 	// In tutti i test deve essere sollevata questa eccezione.
 	// Essa viene sollevata dal metodo get. Se ciò avviene significa che il ledger è stato eliminato correttamente
+	// Verrà sollevata dal metodo delete quando il ledger effettivamente non esiste (modifyData = false).
 	@Test
 	public void deleteTest() throws IOException{
 		exceptionRule.expect(Bookie.NoLedgerException.class);

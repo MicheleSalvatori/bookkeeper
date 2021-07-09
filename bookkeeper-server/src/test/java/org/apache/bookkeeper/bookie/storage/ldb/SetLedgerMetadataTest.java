@@ -51,12 +51,13 @@ public class SetLedgerMetadataTest {
 	public static Collection<?> getTestParameters() {
 		LedgerData ledgerData = LedgerData.newBuilder().setExists(true).setFenced(false)
 				.setMasterKey(ByteString.copyFromUtf8("masterKeyTest")).build();
-
+		
+		boolean metadataAlreadyStored = true;
 		return Arrays.asList(new Object[][] {
 
-				{ 0, ledgerData, null, true }, 
-				{ -1, null, NullPointerException.class, false },
-				{ 1, ledgerData, null, true } });
+				{ 0, ledgerData, null, metadataAlreadyStored }, 
+				{ -1, null, NullPointerException.class, !metadataAlreadyStored },
+				{ 1, ledgerData, null, metadataAlreadyStored } });
 	}
 
 	@Test

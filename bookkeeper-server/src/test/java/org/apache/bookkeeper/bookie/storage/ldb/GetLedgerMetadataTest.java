@@ -27,14 +27,17 @@ public class GetLedgerMetadataTest {
 	private LedgerMetadataIndex ledgerMetadataIndex;
 	private LedgerData ledgerData;
 	Class<? extends Exception> expectedException;
-
+	
+	private boolean exist;
 	@Rule
 	public ExpectedException exceptionRule = ExpectedException.none();
 
-	public GetLedgerMetadataTest(long ledgerId, LedgerData ledgerData, Class<? extends Exception> expectedException) {
+	public GetLedgerMetadataTest(long ledgerId, LedgerData ledgerData, Class<? extends Exception> expectedException, boolean exist) {
 		this.ledgerId = ledgerId;
 		this.ledgerData = ledgerData;
 		this.expectedException = expectedException;
+		
+		this.exist = exist;
 	}
 
 	@Before
@@ -45,7 +48,7 @@ public class GetLedgerMetadataTest {
 		ByteBuffer buff = ByteBuffer.allocate(Long.BYTES);
 		buff.putLong(ledgerId);
 		
-		if (ledgerData != null) {
+		if (ledgerData != null && exist) {
 			ledgers.put(buff.array(), ledgerData.toByteArray());
 		}
 		
@@ -57,15 +60,17 @@ public class GetLedgerMetadataTest {
 	public static Collection<?> getTestParameters() {
 		LedgerData ledgerData = LedgerData.newBuilder().setExists(true).setFenced(false).setMasterKey(ByteString.EMPTY)
 				.build();
-
+		boolean ledgerExist = true;
+		
 		return Arrays.asList(new Object[][] {
 
-				{ 0, ledgerData, null },
-				{ -1, null, Bookie.NoLedgerException.class }, });
+				{ 0, ledgerData, null, ledgerExist },
+				{ -1, ledgerData, null, ledgerExist},
+				{ 1, ledgerData, Bookie.NoLedgerException.class, !ledgerExist} });
 	}
 
 	@Test
-	public void testGet() throws IOException {													// Ragionare se mettere anche il caso in cui il ledger non esista nel db
+	public void testGet() throws IOException {													
 		if (expectedException != null) {
 			exceptionRule.expect(expectedException);
 		}
