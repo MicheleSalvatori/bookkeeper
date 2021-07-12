@@ -14705,3 +14705,177 @@ java.nio.BufferUnderflowException
 2021-07-08 22:38:39 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
 2021-07-08 22:38:39 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
 2021-07-08 22:38:39 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 20:36:05 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 20:36:05 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 20:36:05 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 20:36:05 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 20:36:05 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 20:36:05 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 20:36:05 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 20:36:05 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:10 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:10 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:02:10 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:02:10 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:02:10 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:02:10 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:02:10 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:02:10 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:11 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:11 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:02:11 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:02:11 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:02:11 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:02:11 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:02:11 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:02:11 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:13 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:13 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:02:13 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:02:13 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:02:13 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:02:13 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:02:13 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:02:13 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:13 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 21:02:13 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:02:13 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:02:13 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:02:13 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:02:13 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:02:13 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:02:13 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:02:13 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:02:13 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:02:13 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:02:13 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:02:13 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:02:13 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:02:13 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:02:13 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:02:13 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:02:13 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:02:13 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-12 21:02:13 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:129 - Removed ledger -1
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:104 - Ledger not found -1
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:117 - Added new ledger 3
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-12 21:02:14 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-12 21:02:18 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:18 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:02:18 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:02:18 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:02:18 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:02:18 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:02:18 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:02:18 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:02:18 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:02:18 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:02:18 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:02:18 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:02:18 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:02:18 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:02:18 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:02:18 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:02:18 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:02:18 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:02:18 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-12 21:02:22 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 21:02:22 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:22 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:02:22 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:02:22 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:02:22 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:02:22 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:02:22 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:02:22 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:02:22 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:02:22 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:02:22 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:02:22 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:02:22 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:02:22 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:02:22 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:02:22 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:02:22 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:02:22 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:02:22 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:02:22 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:02:22 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:02:22 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:02:22 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:02:22 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:02:22 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:22 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 21:02:22 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-12 21:02:22 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:23 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-12 21:02:23 DEBUG LedgerMetadataIndex:159 - Re-inserted fenced ledger 1
+2021-07-12 21:02:23 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:23 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-12 21:02:26 DEBUG LedgerMetadataIndex:117 - Added new ledger 0
+2021-07-12 21:02:26 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:26 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:02:26 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:02:26 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:02:26 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:02:26 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:02:26 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:02:26 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:26 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:02:26 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:02:26 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:02:26 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:02:26 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:02:26 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:02:26 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:02:26 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:02:26 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:02:26 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:02:26 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:02:26 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:02:26 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:02:26 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:02:26 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:02:26 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:02:26 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:02:26 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:26 DEBUG LedgerMetadataIndex:117 - Added new ledger 1
+2021-07-12 21:02:26 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:180 - Inserting new ledger 0
+2021-07-12 21:02:30 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:02:30 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:02:30 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:02:30 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:02:30 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:02:30 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:02:30 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:02:30 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:02:30 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:02:30 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:02:30 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:02:30 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:02:30 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:02:30 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:02:30 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:02:30 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:02:30 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:02:30 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:02:30 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:02:30 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:02:30 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:02:30 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:02:30 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:02:30 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:02:30 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:188 - Replace old master key [] with new master key []
+2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:02:30 WARN  LedgerMetadataIndex:191 - Ledger 1 masterKey in db can only be set once.
+2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
