@@ -28,14 +28,17 @@ public class FileInfoAbsoluteReadTest {
 	private File lf;
 	private FileChannel fc;
 	
+	/*
+	 * Header signature
+	 */
 	private static final int SIGNATURE = ByteBuffer.wrap("BKLE".getBytes(UTF_8)).getInt();
 	private static final long START_OF_DATA = 1024;
 	private static final int BUFF_CAPACITY= 1024;
-	private static final int numOfBuffs = 5;
-
 	private static byte[] masterKey = "masterKey".getBytes();
 	private static int V0 = 0; 
+	
 	private int byteWrited;
+	private static final int numOfBuffs = 5;
 	
 	private ByteBuffer buffer;
 	private long start;
@@ -70,8 +73,8 @@ public class FileInfoAbsoluteReadTest {
 		fc.position(0);
 		fc.write(bb);
 		
-		this.fileInfo = new FileInfo(lf, masterKey, V0);
-		this.fileInfo.write(generateRandomBuffer(numOfBuffs), 0);
+		this.fileInfo = new FileInfo(lf, masterKey, V0);						// Scrittura header
+		this.fileInfo.write(generateRandomBuffer(numOfBuffs), 0);				// Scrittura buffer da leggere
 		
 		this.byteWrited = numOfBuffs * BUFF_CAPACITY;
 		
@@ -89,6 +92,8 @@ public class FileInfoAbsoluteReadTest {
 
 		return Arrays.asList(new Object[][] {
 				// Test suite minimale
+			
+//			buffer, start, bestEffort, expectedException, bufferReaderCapacity			
 			{ByteBuffer.allocate(5120), 0, false, null, 5120},
 			{ByteBuffer.allocate(5120), 1, true, null, 5120}, 
 			{ByteBuffer.allocate(0), 0, true, null, 0}, 
@@ -110,7 +115,7 @@ public class FileInfoAbsoluteReadTest {
 			exceptionRule.expect(expectedException);
 		}
 		
-		int byteReaded = fileInfo.read(buffer, start, bestEffort);
+		int byteReaded = fileInfo.read(buffer, start, bestEffort);					// Lettura file 
 		System.out.println("ByteWrited: "+byteWrited);
 		System.out.println("ByteReaded: "+byteReaded);
 		

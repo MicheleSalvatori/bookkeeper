@@ -1,15 +1,12 @@
 package org.apache.bookkeeper.bookie.storage.ldb;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import java.io.IOException;
-import java.nio.ByteBuffer;
 import java.util.Arrays;
 import java.util.Collection;
-import java.util.Map;
 
 import org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageDataFormats.LedgerData;
-import org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -51,10 +48,11 @@ public class SetLedgerMetadataTest {
 	public static Collection<?> getTestParameters() {
 		LedgerData ledgerData = LedgerData.newBuilder().setExists(true).setFenced(false)
 				.setMasterKey(ByteString.copyFromUtf8("masterKeyTest")).build();
-		
 		boolean metadataAlreadyStored = true;
+		
 		return Arrays.asList(new Object[][] {
-
+			
+// 				ledgerId, ledgerData, expectedException, metadataAlreadyStored
 				{ 0, ledgerData, null, metadataAlreadyStored }, 
 				{ -1, null, NullPointerException.class, !metadataAlreadyStored },
 				{ 1, ledgerData, null, metadataAlreadyStored } });
@@ -75,7 +73,7 @@ public class SetLedgerMetadataTest {
 		System.out.println("LedgerData: " + ledgerData);
 
 		if (metadataAlreadyStored) {
-			ledgerMetadataIndex.set(ledgerId, storedData);
+			ledgerMetadataIndex.set(ledgerId, storedData);				// Reinserimento ledger
 		}
 		assertEquals(ledgerData, storedData);
 

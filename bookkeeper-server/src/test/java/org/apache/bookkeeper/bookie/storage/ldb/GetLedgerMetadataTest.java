@@ -10,7 +10,6 @@ import java.util.Map;
 
 import org.apache.bookkeeper.bookie.Bookie;
 import org.apache.bookkeeper.bookie.storage.ldb.DbLedgerStorageDataFormats.LedgerData;
-import org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -48,6 +47,7 @@ public class GetLedgerMetadataTest {
 		ByteBuffer buff = ByteBuffer.allocate(Long.BYTES);
 		buff.putLong(ledgerId);
 		
+		// Branch aggiunta dopo analisi coverage
 		if (ledgerData != null && exist) {
 			ledgers.put(buff.array(), ledgerData.toByteArray());
 		}
@@ -64,6 +64,7 @@ public class GetLedgerMetadataTest {
 		
 		return Arrays.asList(new Object[][] {
 
+//			    ledgerId, ledgerData, expectedException, exist
 				{ 0, ledgerData, null, ledgerExist },
 				{ -1, ledgerData, null, ledgerExist},
 				{ 1, ledgerData, Bookie.NoLedgerException.class, !ledgerExist} });
@@ -74,6 +75,7 @@ public class GetLedgerMetadataTest {
 		if (expectedException != null) {
 			exceptionRule.expect(expectedException);
 		}
+		
 		LedgerData actualData = ledgerMetadataIndex.get(ledgerId);
 		System.out.println(actualData);
 

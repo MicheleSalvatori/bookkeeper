@@ -23,7 +23,7 @@ public class LedgerMetadataIndexConfig {
 	@Mock
 	private KeyValueStorageFactory factory = mock(KeyValueStorageFactory.class); 					// Factory class
 	@Mock
-	private KeyValueStorage keyValueStorage = mock(KeyValueStorage.class); 
+	private KeyValueStorage keyValueStorage = mock(KeyValueStorage.class); 							// RocksDB implementation mock
 
 	private Iterator<Map.Entry<byte[], byte[]>> iterator;
 	private Map<byte[], byte[]> ledgers; 						// lista di ledgers su cui itera l'iterator

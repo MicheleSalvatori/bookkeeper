@@ -14879,3 +14879,1537 @@ java.nio.BufferUnderflowException
 2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
 2021-07-12 21:02:30 WARN  LedgerMetadataIndex:191 - Ledger 1 masterKey in db can only be set once.
 2021-07-12 21:02:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:08:53 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:08:53 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:08:53 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:08:53 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:08:53 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:08:53 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:08:53 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:08:53 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:08:55 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:08:55 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:08:55 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:08:55 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:08:55 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:08:55 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:08:55 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:08:55 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:08:57 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:08:57 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:08:57 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:08:57 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:08:57 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:08:57 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:08:57 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:08:57 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 21:08:57 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:08:57 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:08:57 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:08:57 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:08:57 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:08:57 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:08:57 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:08:57 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:08:57 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:08:57 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:08:57 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:08:57 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:08:57 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:08:57 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:08:57 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:08:57 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:08:57 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:129 - Removed ledger -1
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:104 - Ledger not found -1
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:117 - Added new ledger 3
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-12 21:08:57 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-12 21:08:59 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:08:59 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:08:59 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:08:59 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:08:59 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:08:59 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:08:59 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:08:59 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:08:59 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:08:59 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:08:59 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:08:59 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:08:59 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:08:59 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:08:59 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:08:59 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:08:59 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:08:59 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:08:59 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 21:09:01 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:09:01 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:09:01 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:09:01 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:09:01 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:09:01 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:09:01 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:09:01 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:09:01 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:09:01 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:09:01 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:09:01 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:09:01 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:09:01 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:09:01 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:09:01 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:09:01 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:09:01 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:09:01 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:09:01 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:09:01 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:09:01 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:09:01 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:09:01 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:09:01 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:159 - Re-inserted fenced ledger 1
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:01 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-12 21:09:03 DEBUG LedgerMetadataIndex:117 - Added new ledger 0
+2021-07-12 21:09:03 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:09:03 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:09:03 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:09:03 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:09:03 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:09:03 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:09:03 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:09:03 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:09:03 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:09:03 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:09:03 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:09:03 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:09:03 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:09:03 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:09:03 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:09:03 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:09:03 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:09:03 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:09:03 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:09:03 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:09:03 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:09:03 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:09:03 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:09:03 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:09:03 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:09:03 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:04 DEBUG LedgerMetadataIndex:117 - Added new ledger 1
+2021-07-12 21:09:04 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:06 DEBUG LedgerMetadataIndex:180 - Inserting new ledger 0
+2021-07-12 21:09:06 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 21:09:06 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 21:09:06 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 21:09:06 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 21:09:06 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 21:09:06 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 21:09:06 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 21:09:06 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 21:09:06 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 21:09:06 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 21:09:06 DEBUG PlatformDependent0:927 - Java version: 8
+2021-07-12 21:09:06 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 21:09:06 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 21:09:06 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 21:09:06 DEBUG PlatformDependent0:258 - direct buffer constructor: available
+2021-07-12 21:09:06 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 21:09:06 DEBUG PlatformDependent0:397 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2021-07-12 21:09:06 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): available
+2021-07-12 21:09:06 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 21:09:06 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 21:09:06 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 21:09:06 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: 1908932608 bytes
+2021-07-12 21:09:06 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 21:09:06 DEBUG CleanerJava6:92 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 21:09:06 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 21:09:06 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:06 DEBUG LedgerMetadataIndex:188 - Replace old master key [] with new master key []
+2021-07-12 21:09:06 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:06 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 21:09:06 WARN  LedgerMetadataIndex:191 - Ledger 1 masterKey in db can only be set once.
+2021-07-12 21:09:06 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 23:10:54 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 23:10:54 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 23:10:54 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 23:10:54 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 23:10:54 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-12 23:10:54 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 23:10:54 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 23:10:54 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 23:10:54 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:10:54 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 23:10:54 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5e25a92e
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:10:54 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-12 23:10:54 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 23:10:54 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-12 23:10:54 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 23:10:54 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 23:10:54 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-12 23:10:54 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 23:10:54 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 23:10:54 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 23:10:54 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 23:10:54 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 23:10:54 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 23:10:54 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 23:10:54 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 23:10:54 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 23:10:54 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 23:10:54 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 23:10:54 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-12 23:10:54 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 23:21:51 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 23:21:52 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 23:21:52 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 23:21:52 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 23:21:52 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-12 23:21:52 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 23:21:52 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 23:21:52 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 23:21:52 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:21:52 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 23:21:52 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5e25a92e
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:21:52 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-12 23:21:52 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 23:21:52 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-12 23:21:52 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 23:21:52 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 23:21:52 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-12 23:21:52 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 23:21:52 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 23:21:52 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 23:21:52 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 23:21:52 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 23:21:52 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 23:21:52 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 23:21:52 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 23:21:52 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 23:21:52 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 23:21:52 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-12 23:21:52 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-12 23:21:52 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 23:29:22 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-12 23:29:22 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 23:29:22 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 23:29:22 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 23:29:22 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-12 23:29:22 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 23:29:22 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 23:29:22 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 23:29:22 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:29:22 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 23:29:22 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5e25a92e
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:29:22 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-12 23:29:22 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 23:29:22 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-12 23:29:22 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 23:29:22 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 23:29:22 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-12 23:29:22 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 23:29:22 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 23:29:22 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 23:29:22 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-12 23:29:22 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 23:29:22 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 23:29:22 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 23:29:22 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 23:29:22 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 23:29:22 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 23:29:22 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 23:29:22 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-12 23:38:26 DEBUG LedgerMetadataIndex:180 - Inserting new ledger 0
+2021-07-12 23:38:26 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-12 23:38:26 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-12 23:38:26 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-12 23:38:26 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-12 23:38:26 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-12 23:38:26 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-12 23:38:26 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-12 23:38:26 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-12 23:38:26 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-12 23:38:26 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-12 23:38:26 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-12 23:38:26 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-12 23:38:26 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-12 23:38:26 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-12 23:38:26 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.flush(LedgerMetadataIndex.java:213)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetMasterKeyTest.setMasterKeyTest(SetMasterKeyTest.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:38:26 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-12 23:38:26 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @5e25a92e
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.flush(LedgerMetadataIndex.java:213)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetMasterKeyTest.setMasterKeyTest(SetMasterKeyTest.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-12 23:38:26 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-12 23:38:26 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-12 23:38:26 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-12 23:38:26 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-12 23:38:26 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-12 23:38:26 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-12 23:38:26 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-12 23:38:26 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-12 23:38:26 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-12 23:38:26 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 00:00:57 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 00:00:57 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 00:00:57 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 00:00:57 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 00:00:57 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 00:00:57 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 00:00:57 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 00:00:57 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:37:17 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:37:17 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:37:17 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:37:17 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:37:17 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:37:17 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:37:17 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:37:17 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:44:33 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:44:33 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:44:33 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:44:33 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:44:33 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:44:33 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:44:33 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:44:33 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:51:37 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:51:37 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:51:37 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:51:37 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:51:37 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:51:37 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:51:37 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:51:37 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-13 11:51:37 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 11:51:37 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 11:51:37 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 11:51:37 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 11:51:37 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 11:51:37 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 11:51:37 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.removeDeletedLedgers(LedgerMetadataIndex.java:234)
+	at org.apache.bookkeeper.bookie.storage.ldb.DeleteLedgerTest.deleteTest(DeleteLedgerTest.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:51:37 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 11:51:37 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @21694e53
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.removeDeletedLedgers(LedgerMetadataIndex.java:234)
+	at org.apache.bookkeeper.bookie.storage.ldb.DeleteLedgerTest.deleteTest(DeleteLedgerTest.java:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:51:37 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 11:51:37 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 11:51:37 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 11:51:37 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 11:51:37 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 11:51:37 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 11:51:37 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 11:51:37 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 11:51:37 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:129 - Removed ledger -1
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:104 - Ledger not found -1
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:117 - Added new ledger 3
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-13 11:51:37 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-13 11:57:30 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-13 11:57:30 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:57:30 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 11:57:30 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 11:57:30 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 11:57:30 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 11:57:30 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 11:57:30 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 11:57:30 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:30 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 11:57:30 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @55e7a35c
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:30 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 11:57:30 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 11:57:30 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 11:57:30 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 11:57:30 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 11:57:30 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 11:57:30 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 11:57:30 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 11:57:30 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 11:57:30 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:57:30 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:57:30 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:57:30 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:57:30 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:57:30 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:57:30 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:57:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-13 11:57:30 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-13 11:57:30 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:57:31 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-13 11:57:31 DEBUG LedgerMetadataIndex:159 - Re-inserted fenced ledger 1
+2021-07-13 11:57:31 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:57:31 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-13 11:57:37 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:57:37 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:57:37 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:57:37 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:57:37 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:57:37 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:57:37 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:57:37 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-13 11:57:37 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 11:57:37 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 11:57:37 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 11:57:37 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 11:57:37 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 11:57:37 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 11:57:37 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.removeDeletedLedgers(LedgerMetadataIndex.java:234)
+	at org.apache.bookkeeper.bookie.storage.ldb.DeleteLedgerTest.deleteTest(DeleteLedgerTest.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:37 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 11:57:37 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @21694e53
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.removeDeletedLedgers(LedgerMetadataIndex.java:234)
+	at org.apache.bookkeeper.bookie.storage.ldb.DeleteLedgerTest.deleteTest(DeleteLedgerTest.java:94)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:37 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 11:57:37 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 11:57:37 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 11:57:37 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 11:57:37 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 11:57:37 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 11:57:37 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 11:57:37 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 11:57:37 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:129 - Removed ledger -1
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:104 - Ledger not found -1
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:117 - Added new ledger 3
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:242 - Persisting deletes of ledgers 1
+2021-07-13 11:57:37 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-13 11:57:40 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:57:40 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 11:57:40 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 11:57:40 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 11:57:40 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 11:57:40 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 11:57:40 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 11:57:40 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.GetLedgerMetadataTest.configure(GetLedgerMetadataTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:40 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 11:57:40 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @544630b7
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.GetLedgerMetadataTest.configure(GetLedgerMetadataTest.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:40 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 11:57:40 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 11:57:40 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 11:57:40 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 11:57:40 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 11:57:40 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 11:57:40 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 11:57:40 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 11:57:40 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 11:57:40 DEBUG LedgerMetadataIndex:104 - Ledger not found 1
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:104 - Ledger not found 0
+2021-07-13 11:57:49 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:57:49 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 11:57:49 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 11:57:49 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 11:57:49 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 11:57:49 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 11:57:49 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 11:57:49 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:49 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 11:57:49 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @55e7a35c
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.<init>(LedgerMetadataIndex.java:78)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndexConfig.setupLedgerMetadaIndex(LedgerMetadataIndexConfig.java:58)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerFencedTest.configure(SetLedgerFencedTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:49 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 11:57:49 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 11:57:49 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 11:57:49 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 11:57:49 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 11:57:49 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 11:57:49 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 11:57:49 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 11:57:49 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 11:57:49 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:57:49 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:57:49 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:57:49 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:57:49 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:57:49 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:57:49 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:220 - Persisting updates to 0 ledgers
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:164 - Set fenced ledger 0
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:159 - Re-inserted fenced ledger 1
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:57:49 DEBUG LedgerMetadataIndex:129 - Removed ledger 1
+2021-07-13 11:57:57 DEBUG LedgerMetadataIndex:117 - Added new ledger 0
+2021-07-13 11:57:57 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 11:57:57 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 11:57:57 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 11:57:57 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 11:57:57 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 11:57:57 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 11:57:57 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 11:57:57 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 11:57:57 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 11:57:57 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 11:57:57 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 11:57:57 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 11:57:57 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 11:57:57 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 11:57:57 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.flush(LedgerMetadataIndex.java:213)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerMetadataTest.test(SetLedgerMetadataTest.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:57 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 11:57:57 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4cc547a
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.flush(LedgerMetadataIndex.java:213)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetLedgerMetadataTest.test(SetLedgerMetadataTest.java:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 11:57:57 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 11:57:57 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 11:57:57 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 11:57:57 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 11:57:57 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 11:57:57 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 11:57:57 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 11:57:57 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 11:57:57 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 11:57:57 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 11:57:57 DEBUG LedgerMetadataIndex:117 - Added new ledger 1
+2021-07-13 11:57:57 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 12:03:12 DEBUG LedgerMetadataIndex:180 - Inserting new ledger 0
+2021-07-13 12:03:12 DEBUG InternalLoggerFactory:63 - Using SLF4J as the default logging framework
+2021-07-13 12:03:12 DEBUG Recycler:103 - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2021-07-13 12:03:12 DEBUG Recycler:104 - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2021-07-13 12:03:12 DEBUG Recycler:105 - -Dio.netty.recycler.linkCapacity: 16
+2021-07-13 12:03:12 DEBUG Recycler:106 - -Dio.netty.recycler.ratio: 8
+2021-07-13 12:03:12 DEBUG Recycler:107 - -Dio.netty.recycler.delayedQueue.ratio: 8
+2021-07-13 12:03:12 DEBUG InternalThreadLocalMap:83 - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2021-07-13 12:03:12 DEBUG InternalThreadLocalMap:86 - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2021-07-13 12:03:12 DEBUG PlatformDependent:1063 - Platform: Windows
+2021-07-13 12:03:12 DEBUG PlatformDependent0:433 - -Dio.netty.noUnsafe: false
+2021-07-13 12:03:12 DEBUG PlatformDependent0:927 - Java version: 15
+2021-07-13 12:03:12 DEBUG PlatformDependent0:131 - sun.misc.Unsafe.theUnsafe: available
+2021-07-13 12:03:12 DEBUG PlatformDependent0:155 - sun.misc.Unsafe.copyMemory: available
+2021-07-13 12:03:12 DEBUG PlatformDependent0:193 - java.nio.Buffer.address: available
+2021-07-13 12:03:12 DEBUG PlatformDependent0:267 - direct buffer constructor: unavailable
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+	at io.netty.util.internal.ReflectionUtil.trySetAccessible(ReflectionUtil.java:31)
+	at io.netty.util.internal.PlatformDependent0$4.run(PlatformDependent0.java:239)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:233)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.flush(LedgerMetadataIndex.java:213)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetMasterKeyTest.setMasterKeyTest(SetMasterKeyTest.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 12:03:12 DEBUG PlatformDependent0:332 - java.nio.Bits.unaligned: available, true
+2021-07-13 12:03:12 DEBUG PlatformDependent0:391 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @4cc547a
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:385)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:693)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:556)
+	at io.netty.util.internal.PlatformDependent0$6.run(PlatformDependent0.java:353)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:312)
+	at io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:344)
+	at io.netty.util.internal.PlatformDependent.isAndroid(PlatformDependent.java:294)
+	at io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:93)
+	at org.apache.bookkeeper.bookie.storage.ldb.ArrayUtil.<clinit>(ArrayUtil.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LongWrapper.set(LongWrapper.java:34)
+	at org.apache.bookkeeper.bookie.storage.ldb.LedgerMetadataIndex.flush(LedgerMetadataIndex.java:213)
+	at org.apache.bookkeeper.bookie.storage.ldb.SetMasterKeyTest.setMasterKeyTest(SetMasterKeyTest.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+2021-07-13 12:03:12 DEBUG PlatformDependent0:419 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+2021-07-13 12:03:12 DEBUG PlatformDependent:1106 - sun.misc.Unsafe: available
+2021-07-13 12:03:12 DEBUG PlatformDependent:1208 - maxDirectMemory: 2118123520 bytes (maybe)
+2021-07-13 12:03:12 DEBUG PlatformDependent:1227 - -Dio.netty.tmpdir: C:\Users\miche\AppData\Local\Temp (java.io.tmpdir)
+2021-07-13 12:03:12 DEBUG PlatformDependent:1306 - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2021-07-13 12:03:12 DEBUG PlatformDependent:178 - -Dio.netty.maxDirectMemory: -1 bytes
+2021-07-13 12:03:12 DEBUG PlatformDependent:185 - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2021-07-13 12:03:12 DEBUG CleanerJava9:71 - java.nio.ByteBuffer.cleaner(): available
+2021-07-13 12:03:12 DEBUG PlatformDependent:205 - -Dio.netty.noPreferDirect: false
+2021-07-13 12:03:12 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 12:03:12 DEBUG LedgerMetadataIndex:188 - Replace old master key [] with new master key []
+2021-07-13 12:03:12 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 12:03:12 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers
+2021-07-13 12:03:12 WARN  LedgerMetadataIndex:191 - Ledger 1 masterKey in db can only be set once.
+2021-07-13 12:03:12 DEBUG LedgerMetadataIndex:220 - Persisting updates to 1 ledgers

@@ -31,12 +31,14 @@ public class FileInfoWriteTest {
 	private ByteBuffer[] buffer;
 	private long position;
 	private long expectedWritedBytes;
-
-	public static final int SIGNATURE = ByteBuffer.wrap("BKLE".getBytes(UTF_8)).getInt();
+	
+	/*
+	 * Header signature
+	 */
+	public static final int SIGNATURE = ByteBuffer.wrap("BKLE".getBytes(UTF_8)).getInt();	
 	static final long START_OF_DATA = 1024;
-
 	private static byte[] masterKey = "masterKey".getBytes();
-	private static int V0 = 0; 															// Accepted versions for headers {V0, V1}
+	private static int V0 = 0; 															// Accepted versions for headers: {V0, V1}
 	private static int buff_lenght = 3;
 
 
@@ -52,7 +54,7 @@ public class FileInfoWriteTest {
 
 	@Before
 	public void setUp() throws Exception {
-		this.lf = new File("ledgerIndexFile.txt");
+		this.lf = new File("ledgerIndexFile.txt");						// Creazione file indice fittizio
 		fc = new RandomAccessFile(lf, "rws").getChannel();
 		
 		// Header
@@ -63,8 +65,8 @@ public class FileInfoWriteTest {
 		bb.put(masterKey);
 		bb.putInt(1);
 		bb.rewind();
-		fc.position(0);
-		fc.write(bb);
+		fc.position(0);	
+		fc.write(bb);													// Scrittura header su file indice
 		
 		fileInfo = new FileInfo(lf, masterKey, V0);
 	}
@@ -87,6 +89,8 @@ public class FileInfoWriteTest {
 		
 		return Arrays.asList(new Object[][] {
 				// Test suite minimale
+				
+				// buffer, position, expectedWritedBytes, expectedException
 				{ buffer, 1 , buffer.length*1024, null},
 				{ newBuffer, 0, newBuffer.length*1024, null},
 				{ empty, -1, 0, IndexOutOfBoundsException.class },
@@ -96,7 +100,10 @@ public class FileInfoWriteTest {
 
 		});
 	}
-
+	
+	/*
+	 * Allocazione array ByteBuffer[]
+	 */
 	private static ByteBuffer[] generateRandomBuffer(int buff_lenght) {
 		ByteBuffer[] buffer = new ByteBuffer[buff_lenght];
 		for (int i = 0; i < buff_lenght; i++)
@@ -110,14 +117,16 @@ public class FileInfoWriteTest {
 		if (expectedException != null) {
 			exceptionRule.expect(expectedException);
 		}
-		long result = fileInfo.write(buffer, position);
+		long result = fileInfo.write(buffer, position);							// Scrittura buffer su file 
 		System.out.println("result: "+result + " = " + expectedWritedBytes);
-		assertEquals(expectedWritedBytes, result);
+		assertEquals(expectedWritedBytes, result);								// Verifica quantità di byte scritti
 		
-		// Added for pit mutuation
+		/*
+		 * Added for pit mutation
+		 * Verifica dimensione complessiva file [header + dati]
+		 */
 		FileChannel fc_2 = FileChannel.open(fileInfo.getLf().getAbsoluteFile().toPath(), StandardOpenOption.READ);
-		assertEquals((buff_lenght+1)*1024+position,fc_2.size());
-//		assertEquals(fileInfo.size()+START_OF_DATA,fc_2.size());
+		assertEquals((buff_lenght+1)*1024+position,fc_2.size());				
 	}
 
 }
